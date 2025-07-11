@@ -90,8 +90,7 @@
     <h1 class="display-4 fw-bold">Bem-vindo à <span class="text-primary">Situs Informática</span></h1>
     <p class="lead mt-3">
       Somos especialistas em soluções de <strong>automação comercial</strong>, oferecendo sistemas modernos,
-      eficientes e personalizados para o seu negócio. Atuamos com foco total em tecnologia, suporte de qualidade
-      e atendimento humanizado. Seja você um pequeno comércio ou uma grande rede, temos a solução ideal para o seu crescimento.
+      eficientes e personalizados para o seu negócio...
     </p>
     <p class="mt-3">
       Trabalhamos com sistemas para frente de caixa, gestão empresarial (ERP), controle de estoque, vendas, 
@@ -99,7 +98,6 @@
     </p>
   </div>
 </section>
-
 
 <!-- SISTEMAS -->
 <section id="sistemas">
@@ -111,8 +109,8 @@
                     <img src="assets/img/Sistema_erp.png" class="card-img-top" alt="Sistema ERP">
                     <div class="card-body">
                         <h5 class="card-title">Sistema ERP</h5>
-                        <p class="card-text">Automatize toda a operação do seu negócio: vendas, compras, estoque, caixa, fiscal e mais.</p>
-                        <a href="erp.php" class="btn btn-outline-primary btn-sm">Saiba mais</a>
+                        <p class="card-text">Automatize toda a operação do seu negócio...</p>
+                        <a href="erp.html" class="btn btn-outline-primary btn-sm">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -121,8 +119,8 @@
                     <img src="assets/img/Sistema_gestor.png" class="card-img-top" alt="Atendimento Comercial">
                     <div class="card-body">
                         <h5 class="card-title">Atendimento Comercial</h5>
-                        <p class="card-text">Agilidade no atendimento ao cliente com controle de orçamentos, comissões e pré-vendas.</p>
-                        <a href="comercial.php" class="btn btn-outline-primary btn-sm">Saiba mais</a>
+                        <p class="card-text">Agilidade no atendimento ao cliente com controle de orçamentos...</p>
+                        <a href="comercial.html" class="btn btn-outline-primary btn-sm">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -131,8 +129,8 @@
                     <img src="assets/img/Sistema_pedido.png" class="card-img-top" alt="Sistema de Pedidos">
                     <div class="card-body">
                         <h5 class="card-title">Sistema de Pedidos</h5>
-                        <p class="card-text">Ideal para deliverys e restaurantes. Receba e controle pedidos com total integração.</p>
-                        <a href="pedidos.php" class="btn btn-outline-primary btn-sm">Saiba mais</a>
+                        <p class="card-text">Ideal para deliverys e restaurantes...</p>
+                        <a href="pedidos.html" class="btn btn-outline-primary btn-sm">Saiba mais</a>
                     </div>
                 </div>
             </div>
@@ -145,49 +143,48 @@
   <div class="container">
     <h2 class="text-center mb-4 fw-bold">Fale Conosco</h2>
 
-    <!-- FORMULÁRIO -->
-    <form class="row g-3" method="post" action="contato.php">
+    <!-- FORMULÁRIO SEM FUNCIONALIDADE -->
+    <form class="row g-3">
       <div class="col-md-6">
         <label for="nome" class="form-label">Nome</label>
-        <input type="text" class="form-control" id="nome" name="nome" required>
+        <input type="text" class="form-control" id="nome" required>
       </div>
       <div class="col-md-6">
         <label for="empresa" class="form-label">Empresa</label>
-        <input type="text" class="form-control" id="empresa" name="empresa">
+        <input type="text" class="form-control" id="empresa">
       </div>
       <div class="col-md-6">
         <label for="email" class="form-label">E-mail</label>
-        <input type="email" class="form-control" id="email" name="email" required>
+        <input type="email" class="form-control" id="email" required>
       </div>
       <div class="col-md-6">
         <label for="telefone" class="form-label">Telefone / WhatsApp</label>
-        <input type="text" class="form-control" id="telefone" name="telefone">
+        <input type="text" class="form-control" id="telefone">
       </div>
       <div class="col-12">
         <label for="assunto" class="form-label">Assunto</label>
-        <input type="text" class="form-control" id="assunto" name="assunto">
+        <input type="text" class="form-control" id="assunto">
       </div>
       <div class="col-12">
         <label for="mensagem" class="form-label">Mensagem</label>
-        <textarea class="form-control" id="mensagem" name="mensagem" rows="5" required></textarea>
+        <textarea class="form-control" id="mensagem" rows="5" required></textarea>
       </div>
       <div class="col-12 text-center">
-        <button type="submit" class="btn btn-primary px-5">Enviar</button>
+        <button type="button" class="btn btn-primary px-5">Enviar</button>
       </div>
     </form>
 
-    <!-- REDES SOCIAIS E WHATSAPP -->
+    <!-- REDES SOCIAIS -->
     <div class="text-center mt-5">
       <h5 class="fw-bold">Nos acompanhe nas redes sociais</h5>
-      <p class="mb-3">Fique por dentro das novidades, conteúdos e atualizações da nossa empresa.</p>
       <div class="d-flex justify-content-center gap-4 fs-3 mb-4">
-        <a href="https://www.facebook.com/profile.php?id=61577174699839" target="_blank" class="text-primary text-decoration-none">
+        <a href="https://www.facebook.com/profile.php?id=61577174699839" target="_blank" class="text-primary">
           <i class="bi bi-facebook"></i>
         </a>
-        <a href="https://www.instagram.com/situsinformatica/" target="_blank" class="text-danger text-decoration-none">
+        <a href="https://www.instagram.com/situsinformatica/" target="_blank" class="text-danger">
           <i class="bi bi-instagram"></i>
         </a>
-        <a href="https://www.linkedin.com/company/situsinformatica" target="_blank" class="text-info text-decoration-none">
+        <a href="https://www.linkedin.com/company/situsinformatica" target="_blank" class="text-info">
           <i class="bi bi-linkedin"></i>
         </a>
       </div>
@@ -204,22 +201,14 @@
 <section id="sobre" class="bg-light mt-5">
   <div class="container">
     <h2 class="text-center mb-4 fw-bold">Sobre a Situs Informática</h2>
-    <p class="text-center mx-auto" style="max-width: 900px; font-size: 1.1rem;">
-      Fundada com o propósito de transformar a rotina de empresas comerciais por meio da tecnologia,
-      a <strong>Situs Informática</strong> é especializada na revenda e suporte de sistemas de automação
-      comercial, atendendo clientes de diferentes portes e segmentos em todo o Brasil.
+    <p class="text-center mx-auto" style="max-width: 900px;">
+      Fundada com o propósito de transformar a rotina de empresas comerciais por meio da tecnologia, a <strong>Situs Informática</strong>...
     </p>
-    <p class="text-center mx-auto" style="max-width: 900px; font-size: 1.1rem;">
-      Nosso foco está em oferecer soluções completas, com sistemas que atendem desde a frente de caixa,
-      controle financeiro, emissão de notas fiscais eletrônicas (NF-e e NFC-e), até ferramentas de
-      atendimento integrado via <strong>WhatsApp</strong>. Priorizamos a qualidade do suporte técnico,
-      o atendimento ágil e humanizado e o compromisso com os resultados dos nossos clientes.
+    <p class="text-center mx-auto" style="max-width: 900px;">
+      Nosso foco está em oferecer soluções completas...
     </p>
-    <p class="text-center mx-auto" style="max-width: 900px; font-size: 1.1rem;">
-      Atuamos com sistemas robustos e flexíveis que se adaptam às necessidades de cada negócio, com
-      planos acessíveis a partir de <strong>R$ 99,99 por mês</strong>. Seja para um pequeno varejo ou
-      para uma grande rede, nossa missão é simplificar processos e potencializar a gestão empresarial
-      com tecnologia e eficiência.
+    <p class="text-center mx-auto" style="max-width: 900px;">
+      Atuamos com sistemas robustos e flexíveis...
     </p>
   </div>
 </section>
@@ -227,7 +216,7 @@
 <!-- FOOTER -->
 <footer class="text-center">
     <div class="container">
-        <p>&copy; <?php echo date("Y"); ?> Situs Informática. Todos os direitos reservados.</p>
+        <p>&copy; 2025 Situs Informática. Todos os direitos reservados.</p>
     </div>
 </footer>
 
